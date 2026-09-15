@@ -17,8 +17,8 @@ a {
 
 .header {
 
-   font-style:bold;
-   font-size: 20;
+   font-weight:bold;
+   font-size: 20 rem;
 
 }
 
@@ -26,7 +26,7 @@ a {
    background-color: blue;
 }
 
-.span_link {
+#span_link {
    font-style:italic;
 }
 
@@ -39,7 +39,7 @@ a {
 
 @media (max-width: 400px) {
    body {
-       font-size: 16;
+       font-size: 16 rem;
    }
 }
 
@@ -54,3 +54,5 @@ th, td {
    padding: 10px;             
    text-align: left;          
  }
+
+ 
