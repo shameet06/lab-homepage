@@ -10,24 +10,47 @@
 
 /*ID selector - whenever I add this ID to one line, it will follow this format. However, this ID can only be used once*/
 
-#class {
+a {
+   color: blue; 
+ }
+ 
+
+.header {
 
    font-style:bold;
+   font-size: 20;
 
 }
 
-#class:hover {
-   background-color: teal;
+.header:hover {
+   background-color: blue;
 }
 
 .span_link {
    font-style:italic;
 }
 
+.ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+ }
 
 
 @media (max-width: 400px) {
    body {
-       font-size: 16px;
+       font-size: 16;
    }
 }
+
+table {
+
+   border-collapse: collapse; 
+   width: 100%;
+ }
+
+th, td {
+   border: 1px solid #000000; 
+   padding: 10px;             
+   text-align: left;          
+ }
