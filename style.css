@@ -5,10 +5,9 @@
 
 
 
-/* This is a class selector so add this to any line any amount of times for all formatting to be applied */
-
-
-/*ID selector - whenever I add this ID to one line, it will follow this format. However, this ID can only be used once*/
+body {
+ font-family: "Times New Roman";
+ }
 
 a {
    color: blue; 
@@ -18,15 +17,22 @@ a {
 .header {
 
    font-weight:bold;
-   font-size: 20 rem;
+   font-size: 1.25rem;
 
 }
+
+
 
 .header:hover {
    background-color: blue;
 }
 
 #span_link {
+   font-style:italic;
+   font-weight:bold;
+}
+
+#span_link2 {
    font-style:italic;
 }
 
@@ -39,7 +45,7 @@ a {
 
 @media (max-width: 400px) {
    body {
-       font-size: 16 rem;
+       font-size: 16rem;
    }
 }
 
