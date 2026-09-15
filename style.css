@@ -5,23 +5,32 @@
 
 
 
-body {
- font-family: "Times New Roman";
- }
+
 
 a {
    color: blue; 
  }
  
+ #div1 {
+   font-family: "Times New Roman";
+ }
+ 
+ #div2 {
+   font-family: "Times New Roman";
+ }
+ 
+ #div3 {
+   font-family: "Times New Roman";
+ }
+ 
+ #div4 {
+   font-family: "Times New Roman";
+ }
 
 .header {
-
    font-weight:bold;
    font-size: 1.25rem;
-
 }
-
-
 
 .header:hover {
    background-color: blue;
@@ -36,12 +45,15 @@ a {
    font-style:italic;
 }
 
+#span_link3 {
+   font-style:italic;
+}
+
 .ul {
    list-style-type: none;
    margin: 0;
    padding: 0;
  }
-
 
 @media (max-width: 400px) {
    body {
