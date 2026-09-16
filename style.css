@@ -13,17 +13,12 @@ a {
 
 body {
    background-color: #fcf8f2; 
-   margin: 0;
    padding: 0;
  }
 
 div {
   font-family: "Times New Roman";
-   max-width: 800px;          
-   margin: 0 auto;            
-   padding: 40px 20px;        
-   font-family: sans-serif;   
- 
+
 }
 
 
