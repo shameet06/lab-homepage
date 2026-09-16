@@ -10,13 +10,20 @@
 a {
    color: blue; 
 }
- 
+
+body {
+   background-color: #fcf8f2; 
+   margin: 0;
+   padding: 0;
+ }
+
 div {
-   font-family: "Times New Roman";
-  display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center;     /* Centers vertically */
-  height: 100vh;
+  font-family: "Times New Roman";
+   max-width: 800px;          
+   margin: 0 auto;            
+   padding: 40px 20px;        
+   font-family: sans-serif;   
+ 
 }
 
 
