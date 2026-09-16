@@ -11,21 +11,10 @@ a {
    color: blue; 
 }
  
-div1 {
+div {
    font-family: "Times New Roman";
 }
  
-div2 {
-   font-family: "Times New Roman";
-}
- 
-div3 {
-   font-family: "Times New Roman";
-}
- 
-div4 {
-   font-family: "Times New Roman";
-}
 
 .header {
    font-weight:bold;
