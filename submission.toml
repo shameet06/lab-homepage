@@ -1,7 +1,0 @@
-[evidence]
-site_url = "https://shameet06.github.io/lab-homepage/index.html"
-archive_url = "https://web.archive.org/web/20260916001346/https://shameet06.github.io/lab-homepage/"
-backlink_urls = [
-  "https://llu322.github.io/lab-homepage/",
-  "https://second-other-domain.example/page",
-]
